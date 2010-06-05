@@ -1,0 +1,177 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 279AAAA00DD4C62600EF8D6C /* Image2Web */;
+		activeTarget = 8DD76F960486AA7600D96B5E /* Image2Web */;
+		addToTargets = (
+			8DD76F960486AA7600D96B5E /* Image2Web */,
+		);
+		codeSenseManager = 279AAAAA0DD4C62B00EF8D6C /* Code sense */;
+		executables = (
+			279AAAA00DD4C62600EF8D6C /* Image2Web */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					400,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					993,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					945,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 297395444;
+			PBXWorkspaceStateSaveDate = 297395444;
+		};
+		perUserProjectItems = {
+			275B3C3F11B9E2E400B57E8F /* PBXTextBookmark */ = 275B3C3F11B9E2E400B57E8F /* PBXTextBookmark */;
+			275B3C4E11B9E50000B57E8F /* PBXTextBookmark */ = 275B3C4E11B9E50000B57E8F /* PBXTextBookmark */;
+		};
+		sourceControlManager = 279AAAA90DD4C62B00EF8D6C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	08FB7796FE84155DC02AAC07 /* Image2Web.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1163, 1022}}";
+			sepNavSelRange = "{239, 0}";
+			sepNavVisRange = "{0, 737}";
+			sepNavVisRect = "{{0, 0}, {1185, 467}}";
+		};
+	};
+	275B3C3F11B9E2E400B57E8F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
+		name = "Image2Web.m: 16";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 0;
+	};
+	275B3C4E11B9E50000B57E8F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
+		name = "Image2Web.m: 16";
+		rLen = 0;
+		rLoc = 239;
+		rType = 0;
+		vrLen = 737;
+		vrLoc = 0;
+	};
+	279AAAA00DD4C62600EF8D6C /* Image2Web */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+			YES,
+			YES,
+		);
+		argumentStrings = (
+			"$(SRCROOT)/build/test.png",
+			"$(SRCROOT)/build/out.png",
+		);
+		autoAttachOnCrash = 0;
+		breakpointsEnabled = 1;
+		configStateDict = {
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 3;
+				PBXLSLaunchStyle = 0;
+				class = PBXGDB_LaunchConfig;
+				displayName = GDB;
+				identifier = com.apple.Xcode.launch.GDBMI_Config;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 0;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Image2Web;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	279AAAA90DD4C62B00EF8D6C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	279AAAAA0DD4C62B00EF8D6C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	8DD76F960486AA7600D96B5E /* Image2Web */ = {
+		activeExec = 0;
+		executables = (
+			279AAAA00DD4C62600EF8D6C /* Image2Web */,
+		);
+	};
+}

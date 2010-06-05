@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Image2Web' target in the 'Image2Web' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
