@@ -42,7 +42,25 @@ int main (int argc, const char * argv[]) {
 	}
 
 	NSBitmapImageRep *rep = [NSBitmapImageRep imageRepWithData:[image TIFFRepresentation]];
-	[rep setProperty:NSImageColorSyncProfileData withValue:nil]; // remove color profile
+	
+	// check if the image is cmyk; we want to convert cmyk to rgb
+	
+	if([rep colorSpaceName] == NSDeviceCMYKColorSpace) {
+		NSBitmapImageRep *convertedRep = [rep bitmapImageRepByConvertingToColorSpace:[NSColorSpace deviceRGBColorSpace]
+																	 renderingIntent:NSColorRenderingIntentPerceptual];
+		
+		if(!convertedRep) {
+			printf("CMYK to RGB conversion failed");
+		} else {
+			rep = convertedRep;	
+		}
+	}
+	
+	// remove color profile - if you save the image w/o using a save for web feature & the chosen color profile is the same as your monitor
+	// stripping the color profile standardize the color display
+	
+	[rep setProperty:NSImageColorSyncProfileData withValue:nil];
+	
 	NSData *outputImageData = [rep representationUsingType:outputType properties:nil];
 	
 	switch([arguments count]) {
