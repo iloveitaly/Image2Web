@@ -75,12 +75,9 @@
 			PBXWorkspaceStateSaveDate = 303675107;
 		};
 		perUserProjectItems = {
-			275B3C3F11B9E2E400B57E8F = 275B3C3F11B9E2E400B57E8F /* PBXTextBookmark */;
-			275B3C4E11B9E50000B57E8F = 275B3C4E11B9E50000B57E8F /* PBXTextBookmark */;
 			279FF1181219B86C00E0AA09 /* PBXTextBookmark */ = 279FF1181219B86C00E0AA09 /* PBXTextBookmark */;
 			279FF1191219B86C00E0AA09 /* PBXBookmark */ = 279FF1191219B86C00E0AA09 /* PBXBookmark */;
-			279FF11A1219B86C00E0AA09 /* PBXTextBookmark */ = 279FF11A1219B86C00E0AA09 /* PBXTextBookmark */;
-			279FF11D1219B9D000E0AA09 /* PBXTextBookmark */ = 279FF11D1219B9D000E0AA09 /* PBXTextBookmark */;
+			279FF11E1219BB4400E0AA09 /* PBXTextBookmark */ = 279FF11E1219BB4400E0AA09 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 279AAAA90DD4C62B00EF8D6C /* Source Control */;
 		userBuildSettings = {
@@ -93,26 +90,6 @@
 			sepNavVisRange = "{985, 1181}";
 			sepNavVisRect = "{{0, 0}, {1185, 467}}";
 		};
-	};
-	275B3C3F11B9E2E400B57E8F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
-		name = "Image2Web.m: 16";
-		rLen = 0;
-		rLoc = 239;
-		rType = 0;
-		vrLen = 737;
-		vrLoc = 0;
-	};
-	275B3C4E11B9E50000B57E8F /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
-		name = "Image2Web.m: 16";
-		rLen = 0;
-		rLoc = 239;
-		rType = 0;
-		vrLen = 737;
-		vrLoc = 0;
 	};
 	279AAAA00DD4C62600EF8D6C /* Image2Web */ = {
 		isa = PBXExecutable;
@@ -187,17 +164,7 @@
 		isa = PBXBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
 	};
-	279FF11A1219B86C00E0AA09 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
-		name = "Image2Web.m: 61";
-		rLen = 0;
-		rLoc = 1692;
-		rType = 0;
-		vrLen = 1181;
-		vrLoc = 985;
-	};
-	279FF11D1219B9D000E0AA09 /* PBXTextBookmark */ = {
+	279FF11E1219BB4400E0AA09 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
 		name = "Image2Web.m: 50";
