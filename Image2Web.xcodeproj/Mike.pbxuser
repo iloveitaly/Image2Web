@@ -1,6 +1,7 @@
 // !$*UTF8*$!
 {
 	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeArchitecturePreference = i386;
 		activeBuildConfigurationName = Release;
 		activeExecutable = 279AAAA00DD4C62600EF8D6C /* Image2Web */;
 		activeSDKPreference = macosx10.6;
@@ -71,12 +72,12 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 303675107;
-			PBXWorkspaceStateSaveDate = 303675107;
+			PBXPerProjectTemplateStateSaveDate = 310492668;
+			PBXWorkspaceStateSaveDate = 310492668;
 		};
 		perUserProjectItems = {
+			270E8C2E1281C48E009CC13C /* PBXTextBookmark */ = 270E8C2E1281C48E009CC13C /* PBXTextBookmark */;
 			279FF1181219B86C00E0AA09 /* PBXTextBookmark */ = 279FF1181219B86C00E0AA09 /* PBXTextBookmark */;
-			279FF1191219B86C00E0AA09 /* PBXBookmark */ = 279FF1191219B86C00E0AA09 /* PBXBookmark */;
 			279FF11E1219BB4400E0AA09 /* PBXTextBookmark */ = 279FF11E1219BB4400E0AA09 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 279AAAA90DD4C62B00EF8D6C /* Source Control */;
@@ -85,11 +86,21 @@
 	};
 	08FB7796FE84155DC02AAC07 /* Image2Web.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1171, 1157}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1171, 1246}}";
 			sepNavSelRange = "{1378, 0}";
-			sepNavVisRange = "{985, 1181}";
+			sepNavVisRange = "{985, 1082}";
 			sepNavVisRect = "{{0, 0}, {1185, 467}}";
 		};
+	};
+	270E8C2E1281C48E009CC13C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
+		name = "Image2Web.m: 50";
+		rLen = 0;
+		rLoc = 1378;
+		rType = 0;
+		vrLen = 1082;
+		vrLoc = 985;
 	};
 	279AAAA00DD4C62600EF8D6C /* Image2Web */ = {
 		isa = PBXExecutable;
@@ -159,10 +170,6 @@
 		rType = 0;
 		vrLen = 160;
 		vrLoc = 0;
-	};
-	279FF1191219B86C00E0AA09 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 08FB7796FE84155DC02AAC07 /* Image2Web.m */;
 	};
 	279FF11E1219BB4400E0AA09 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
