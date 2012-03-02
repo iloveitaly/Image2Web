@@ -1,14 +1,12 @@
 #!/bin/bash
 
 if [ -z $1 ]; then
-	echo "No dir specified"
+	echo "No directory specified"
 	exit 1
 fi
 
 targetDir="$1"
 targetDir=${targetDir%/} # remove trailing slash if there is one
-
-# convert -colorspace RGB oldcymk.jpg jpg:newrgb.jpg
 
 find "$targetDir" -name "*.png" -or -name "*.jpg" -or -name "*.jpeg" | while read line; do
 	echo "Optimizing $line"

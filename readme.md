@@ -3,6 +3,10 @@ Alot of images I would get from designers were saved in CMYK instead of RGB, poo
 
 I wrote this tool to convert CMYK images to RGB, strip color profiles, and get some of the file optimization benefits that Preview.app provided.
 
+#Installation
+* copy image2web to /usr/bin or other bin directory
+* `color_fix.bash` uses optipng. Install using `brew install optipng`
+
 #Usage
 
 	color_fix.bash ~/Sites/websites/images
